@@ -1,0 +1,41 @@
+{
+	"name": "samplecustomwidget",
+	"description": "Hello World - A Sample Widget",
+	"newInstancePrefix": "samplecustomwidget",
+	"eula": "",
+	"vendor": "cpieume",
+	"license": "",
+	"id": "samplecustomwidget",
+	"version": "1.0",
+	"icon": "",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "custom-button",
+			"url": "https://cpieume.github.io/sac/SampleWC.js",
+			"integrity": ""	,
+			"ignoreIntegrity": true
+			
+		}		
+	],
+	"properties": {
+		"width": {
+			"type": "integer",
+			"default": 192
+		},
+		"height": {
+			"type": "integer",
+			"default": 32
+		}
+	},
+	"methods": {
+		"clear": {
+			"description": "Clear the resultset"
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the button."
+		}
+	}
+}
